@@ -1,0 +1,191 @@
+  * {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  background-color: #ee5512;
+  font-family: 'Saira', sans-serif;
+  font-size: 20px;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+header {
+  font-size: 75px;
+  height: 200px;
+}
+
+h1 {
+  padding: 50px 0 0 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+.container {
+  display: flex;
+  font-size: 40px;
+  margin: 0 30px 0 30px;
+}
+
+.container > div {
+  flex: 1; /*grow*/
+}
+
+.menu {
+  font-size: 20px;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: medium;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  display: inline-block;
+  padding: 20px 0 20px 30px;
+  width: 100%;
+}
+
+.script {
+  border-left-color: black;
+  border-left-style: solid;
+  border-left-width: medium;
+  padding-left: 30px;
+}
+
+main {
+  padding: 0 30px 0 30px;
+}
+
+.image {
+  float:right;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.image img {
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45%;
+  width: 45%;
+}
+
+.blurb {
+  margin-bottom: 60px;
+  width: 50%;
+}
+
+.blurb h2 {
+  font-size: 40px;
+  padding: 30px 0 0 30px;
+}
+
+p {
+  padding: 30px 30px 10px 30px;
+}
+
+h2, h3 {
+  padding: 30px 30px 10px 30px;
+  font-size: 25px;
+}
+
+.team {
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: medium;
+}
+
+.production img {
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+  display: inline-block;
+  font-size: 0;
+  width: 32.5%;
+}
+
+section {
+ margin-bottom: 20px;
+}
+
+h3 {
+  padding: 10px 0 20px 60px;
+}
+
+.press {
+  background-color: #f06428;
+  display: inline-block;
+  font-size: 15px;
+  height: 200px;
+  width: 100%;
+  padding: 70px 30px 0 30px;
+  text-align: center;
+}
+
+.press:hover {
+  background-color: black;
+}
+
+.standard {
+  background-color: #f27640;
+}
+
+.ft {
+  background-color: #f38758;
+}
+
+.out {
+  background-color: #f59870;
+}
+
+.wos {
+  background-color: #f7a988;
+}
+
+.exeunt {
+  background-color: #f8baa0;
+}
+
+.wef {
+  background-color: #facbb7;
+}
+
+.upcoming {
+  background-color: #fcddcf;
+}
+
+.interviews {
+  padding: 0 0 30px 0;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+}
+
+footer {
+  padding: 10px 0 0 30px;
+}
+
+.credit {
+  font-size: 8px;
+  padding-left: 30px;
+}
