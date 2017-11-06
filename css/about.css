@@ -72,6 +72,11 @@ main {
   padding: 30px 0 20px 0;
 }
 
+.quote {
+  font-style: italic;
+  font-weight: bold;
+}
+
 .blurb {
   align-items: center;
   justify-content: center;
@@ -149,6 +154,10 @@ h2 {
 
 .bush {
   background-color: #f8baa0;
+}
+
+.attitude {
+  background-color: #facbb7;
 }
 
 .interviews {

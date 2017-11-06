@@ -98,6 +98,11 @@ h2 {
   border: none;
 }
 
+.quote {
+  font-style: italic;
+  font-weight: bold;
+}
+
 p {
  font-family: 'Open Sans', sans-serif;
  font-size: 16px;
